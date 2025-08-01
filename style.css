@@ -1,0 +1,67 @@
+/* style.css */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#controls {
+  padding: 12px 0;
+  background: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+button, select {
+  font-size: 14px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:hover, select:hover {
+  background-color: #eaeaea;
+}
+
+svg {
+  border: 1px solid #ccc;
+  display: block;
+  margin: 0 auto;
+}
+
+svg text {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.bar-label {
+  font-size: 12px;
+  fill: #333;
+}
+
+.annotation-connector {
+  stroke: #000;
+  stroke-width: 1px;
+}
+
+.annotation-note {
+  stroke: #000;
+  fill: #fff;
+  stroke-width: 1px;
+  rx: 4;
+  ry: 4;
+}
+
+.annotation-note text {
+  font-weight: bold;
+}
+
+.axis path,
+.axis line {
+  stroke: #666;
+  stroke-width: 1;
+}
