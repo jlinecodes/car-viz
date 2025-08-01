@@ -136,7 +136,7 @@ function drawScene1() {
     .attr("text-anchor", "middle")
     .attr("font-size", "14px")
     .attr("font-weight", "bold")
-    .text("Asian brands dominated early years, Western rising since 2010");
+    .text("Western brands dominated early years, Asian rising since 2016");
 
   drawLegend(svg, color, ["Asian", "Western"]);
 }
